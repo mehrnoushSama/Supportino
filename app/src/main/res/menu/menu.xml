@@ -13,8 +13,7 @@
 
     <item
         android:id="@+id/chat_item"
-        android:icon="@drawable/ic_chat__1_"
+        android:icon="@drawable/ic_chat"
         android:title="تیکت" />
-
 
 </menu>

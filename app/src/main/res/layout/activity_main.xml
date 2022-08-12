@@ -6,22 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
-    <!--            android:layout_width="match_parent"-->
-    <!--            android:layout_height="wrap_content"-->
-    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--            app:layout_constraintEnd_toEndOf="parent"-->
-    <!--            app:layout_constraintStart_toStartOf="parent"-->
-    <!--            app:menu="@menu/menu"/>-->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation_view"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/navigation" />
 
 
-    <com.hk.kbottomnavigation.KBottomNavigation
-        android:id="@+id/menu"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/menu_shape"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/menu_selector"
+        app:labelVisibilityMode="unlabeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu" />
+
+    <!--    <com.hk.kbottomnavigation.KBottomNavigation-->
+    <!--        android:id="@+id/menu"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:mbn_backgroundBottomColor="#a594f9"-->
+    <!--        app:mbn_countBackgroundColor="#ff6f00"-->
+    <!--        app:mbn_countTextColor="#ffffff"-->
+    <!--        app:mbn_defaultIconColor="#ffffff"-->
+    <!--        app:mbn_rippleColor="#C62828"-->
+    <!--        app:mbn_shadowColor="#1f212121" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
