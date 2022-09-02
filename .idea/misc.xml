@@ -4,19 +4,34 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/box_shape.xml" value="0.1575" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/chat_selector.xml" value="0.1565" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/dashboard_selector.xml" value="0.1565" />
         <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/ic_arrow_forward.xml" value="0.1575" />
         <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/ic_article.xml" value="0.196" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2395" />
         <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.196" />
         <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/ic_chat.xml" value="0.1" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/ic_chat_outline.xml" value="0.1565" />
         <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/ic_dashboard.xml" value="0.196" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/ic_phone.xml" value="0.1565" />
         <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/ic_ticket.xml" value="0.196" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/ic_wave.xml" value="0.1" />
         <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/menu_selected_item_shape.xml" value="0.138" />
         <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/menu_selector.xml" value="0.1575" />
         <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/menu_shape.xml" value="0.1575" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/phone_selector.xml" value="0.1565" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/profile_header_shape.xml" value="0.2595" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/profile_selector.xml" value="0.1565" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/ring_shape.xml" value="0.2395" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/rounded_btn.xml" value="0.2395" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/drawable/ticket_selector.xml" value="0.1565" />
         <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/font/font_family.xml" value="0.28" />
-        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/layout/customer_ticket_item.xml" value="0.264" />
         <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/layout/fragment_conversation.xml" value="0.25416666666666665" />
-        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/layout/fragment_dashboard.xml" value="0.24087591240875914" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/layout/fragment_dashboard.xml" value="0.4" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/layout/fragment_ticket.xml" value="0.264" />
         <entry key="..\:/Learn/AndroidApp/kotlin/Supportino/app/src/main/res/menu/menu.xml" value="0.264" />
       </map>
     </option>

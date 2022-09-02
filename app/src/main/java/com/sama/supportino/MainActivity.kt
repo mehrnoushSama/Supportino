@@ -59,6 +59,7 @@ class MainActivity : AppCompatActivity() {
                     R.id.dashboard_item -> navigate(R.id.dashboardFragment)
                     R.id.ticket_item -> navigate(R.id.ticketFragment)
                     R.id.chat_item -> navigate(R.id.conversationFragment)
+                    R.id.profile_item -> navigate(R.id.profileFragment)
                 }
                 return@setOnItemSelectedListener true
             }

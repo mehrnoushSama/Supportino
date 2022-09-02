@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <item android:color="#FF8F00" android:drawable="@drawable/ic_phone" android:state_pressed="true" />-->
+<!--    <item android:color="@color/gray" android:drawable="@drawable/ic_phone_outline" />-->
+<!--</selector>-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Pressed state -->
+    <item android:drawable="@drawable/ic_phone" android:state_selected="true" />
+    <!-- Default state -->
+    <item android:drawable="@drawable/ic_phone_outline" />
+
+</selector>
+

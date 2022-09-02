@@ -17,6 +17,9 @@
         <action
             android:id="@+id/action_dashboardFragment_to_ticketFragment"
             app:destination="@id/ticketFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
     </fragment>
     <fragment
         android:id="@+id/conversationFragment"
@@ -41,5 +44,14 @@
         <action
             android:id="@+id/action_ticketFragment_to_conversationFragment"
             app:destination="@id/conversationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.sama.supportino.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
     </fragment>
 </navigation>

@@ -62,4 +62,7 @@ dependencies {
    // implementation Dependencies.curved_bottom_navigation
     implementation Dependencies.navigation
     implementation Dependencies.navigation_ui
+
+    //Rounded imageView
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 }

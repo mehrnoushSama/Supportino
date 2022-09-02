@@ -2,18 +2,28 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/call_item"
+        android:icon="@drawable/phone_selector"
+        android:title="تماس" />
+
+    <item
         android:id="@+id/ticket_item"
-        android:icon="@drawable/ic_letter"
+        android:icon="@drawable/ticket_selector"
         android:title="تیکت" />
 
     <item
         android:id="@+id/dashboard_item"
-        android:icon="@drawable/ic_dashboard"
+        android:icon="@drawable/dashboard_selector"
         android:title="داشبورد" />
 
     <item
         android:id="@+id/chat_item"
-        android:icon="@drawable/ic_chat"
-        android:title="تیکت" />
+        android:icon="@drawable/chat_selector"
+        android:title="چت" />
+
+    <item
+        android:id="@+id/profile_item"
+        android:icon="@drawable/profile_selector"
+        android:title="پروفایل" />
 
 </menu>
